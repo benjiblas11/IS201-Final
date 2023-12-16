@@ -1,0 +1,53 @@
+
+:root {
+
+--bg-black: #000;
+--tx-white: #fff;
+--tx-size: 30px;
+--tx-fontfamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+--tx-fontweight: 100;
+--hyperlink-color:rgb(13, 195, 174); 
+}
+
+body {
+
+    background-color: var(--bg-black);
+    color: var(--tx-white);
+    font-family: var(--tx-fontfamily);
+    font-weight: var(--tx-fontweight);
+
+
+}
+
+a {
+
+    color: var(--hyperlink-color)
+}
+
+h1 { 
+    text-align: center;
+}
+
+h2 { 
+    text-align: center;
+}
+
+img {
+    float:right;
+    border: 5px solid rgb(53, 196, 9);
+    padding:3px;
+    margin:5px
+
+}
+
+iframe { 
+    float:right;
+    border: 5px solid rgb(255, 255, 255);
+    padding:3px;
+    margin:5px
+
+}
+
+.italicize {
+    font-style: italic;
+}
